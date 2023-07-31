@@ -9,6 +9,7 @@ df = pd.read_csv('C:\\Users\\Lenovo T480\\Downloads\\city_temperature.csv',low_m
 
 # Create the Dash app
 app = Dash(__name__)
+server = app.server
 
 # Define the layout of the app
 app.layout = html.Div(children=[
